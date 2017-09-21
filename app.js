@@ -20,7 +20,7 @@
 var express=require('express');
 var path=require('path');
 var app=express();
-var routes=require('./routes');
+var routes=require('./api/routes');
 app.set('port',3000);
 
 app.use(function(req,res,next){
